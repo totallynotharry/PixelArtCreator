@@ -1,6 +1,8 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
 }
 
 h1 {
@@ -21,4 +23,9 @@ h1 {
     height: 20px;
     border: 1px solid #ccc;
     cursor: pointer;
+    background-color: #ffffff;
+}
+
+#pixelCanvas td:hover {
+    background-color: #e0e0e0;
 }
